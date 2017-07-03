@@ -9,9 +9,12 @@ The current dataset only contains a single large image. Resized / cropped images
 To request more images please create an issue or pull request.
 
 How to Add more Team Logos:
-1) Find team(s) with missing logos on LootLeague.com
-2) Source image and save to desktop: game-name/team-name/team-name-logo.png on your desktop (Examples: csgo/faze-clan/faze-clan-logo.png or league-of-legends/mineski/mineski-logo.png)
-3) Open https://github.com/lootmarket/esport-team-logos/upload/master
-4) Drag and drop the folders
-5) Type a brief title / desciption within `Commit Changes`
-6) Click `Commit Changes`
+- Find team(s) with missing logos on LootLeague.com
+- Source image and save to desktop: game-name/team-name/team-name-logo.png on your desktop. Examples:
+  - csgo/faze-clan/faze-clan-logo.png
+  - league-of-legends/mineski/mineski-logo.png
+- Open https://github.com/lootmarket/esport-team-logos/upload/master
+- Drag and drop the folders
+- Type a brief title / desciption within `Commit Changes`
+- Click "Create a New branch" and give the branch a name (Example: `Added team logos` or `Added Rebel Esports logo`)
+- Click `Commit Changes`
