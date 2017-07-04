@@ -18,3 +18,19 @@ How to Add more Team Logos:
 - Type a brief title / desciption within `Commit Changes`
 - Click "Create a New branch" and give the branch a name (Example: `Added team logos` or `Added Rebel Esports logo`)
 - Click `Commit Changes`
+
+
+## Thumbnailing Logos
+
+To process a single image, run `npm run thumb <path/to/image>`
+
+To process an entire game, run `npm run thumb <game>`
+
+### Available Thumbnail Sizes
+
+This will create thumbnails in:
+
+- 32x32 - `{team}-logo-32.png`
+- 128x128 - `{team}-logo-128.png`
+- 320x320 - `{team}-logo-320.png`
+- original file - `{team}-logo.png`
