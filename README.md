@@ -1,4 +1,4 @@
-# esports Team Logos
+# esport Team Logos
 
 An attempt to maintain a singular resource of team logos for active, and retired esports teams.
 
@@ -20,29 +20,13 @@ To request more images please create an issue or pull request.
 
 
 ## Identifying Missing Logos
-- visit rivalry.gg
+- visit rivalry.com
 - open up your developer console in browser (right click inspect, select console tab)
 - refresh with console open
 - If there are team logos missing, they will be shown in the error logs.
 ![example](https://d3vv6lp55qjaqc.cloudfront.net/items/1k0v412T302U2x202S2r/Image%202018-06-13%20at%2010.30.51%20AM.png?X-CloudApp-Visitor-Id=30913)
 - this will tell you the broken image url, and the path we're expecting when you add the game. For example, the paths shown in the right of that screenshot are:
-    - https://esport-team-logos.global.ssl.fastly.net/esport-team-logos/dota-2/singularity-esports/singularity-esports-128.png
-    - https://esport-team-logos.global.ssl.fastly.net/esport-team-logos/dota-2/helsinki-reds/helsinki-reds-128.png
-    - https://esport-team-logos.global.ssl.fastly.net/esport-team-logos/starcraft/classic/classic-128.png
-    - https://esport-team-logos.global.ssl.fastly.net/esport-team-logos/starcraft/maru/maru-128.png
-
-
-## Thumbnailing Logos
-
-To process a single image, run `npm run thumb <path/to/image>`
-
-To process an entire game, run `npm run thumb <game>`
-
-### Available Thumbnail Sizes
-
-This will create thumbnails in:
-
-- 32x32 - `{team}-logo-32.png`
-- 128x128 - `{team}-logo-128.png`
-- 320x320 - `{team}-logo-320.png`
-- original file - `{team}-logo.png`
+    - https://esport-team-logos.global.ssl.fastly.net/esport-team-logos/dota-2/singularity-esports/singularity-esports-logo.png
+    - https://esport-team-logos.global.ssl.fastly.net/esport-team-logos/dota-2/helsinki-reds/helsinki-reds-logo.png
+    - https://esport-team-logos.global.ssl.fastly.net/esport-team-logos/starcraft/classic/classic-logo.png
+    - https://esport-team-logos.global.ssl.fastly.net/esport-team-logos/starcraft/maru/maru-logo.png
