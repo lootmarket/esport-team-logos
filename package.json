@@ -1,22 +1,13 @@
 {
-  "name": "esport-team-logos",
-  "version": "1.0.0",
-  "description": "Repository of esports team logos, available at various thumbnail sizes.",
-  "main": "README.md",
-  "scripts": {
-    "thumb": "node thumb.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lootmarket/esport-team-logos.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/lootmarket/esport-team-logos/issues"
-  },
-  "homepage": "https://github.com/lootmarket/esport-team-logos#readme",
-  "dependencies": {
-    "sharp": "^0.30.5"
-  }
+	"name": "esport-team-logos",
+	"version": "1.0.0",
+	"description": "Repository of esports team logos, available at various thumbnail sizes.",
+	"main": "README.md",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/lootmarket/esport-team-logos.git"
+	},
+	"author": "Rivalry",
+	"license": "ISC",
+	"homepage": "https://github.com/lootmarket/esport-team-logos#readme"
 }
